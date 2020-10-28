@@ -30,8 +30,3 @@ jobs:
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_9a977f06e63749e49df1b26fa71635fb }}
         package: '${{ github.workspace }}/distro/quickstart/target/*quickstart.zip'
-    
-    - name: Run Apicuro7
-      run: 
-        cd /home/site/wwwroot/apicurio-studio-*-SNAPSHOT/standalone/configuration
-        /home/site/wwwroot/apicurio-studio-*-SNAPSHOT/bin/standalone.sh -c standalone-apicurio.xml
