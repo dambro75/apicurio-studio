@@ -29,4 +29,4 @@ jobs:
         app-name: 'apicurio7'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_9a977f06e63749e49df1b26fa71635fb }}
-        package: '${{ github.workspace }}/distro/quickstart/target/*.zip'
+        package: '${{ github.workspace }}/distro/quickstart/target/*quickstart.zip'
