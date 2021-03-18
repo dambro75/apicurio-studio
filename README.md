@@ -2,7 +2,7 @@
 
 # The apicurio-studio project (Open Source API Design Studio)
 
-## Summary
+## Summary.
 
 This is the official Git repository for the apicurio studio project:  http://www.apicur.io/
 
