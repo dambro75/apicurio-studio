@@ -23,7 +23,7 @@ public class GitLabException extends Exception {
 
 	private static final long serialVersionUID = -6970632778617385706L;
 
-	/**
+     /**
      * Constructor.
      */
     public GitLabException(String message) {
